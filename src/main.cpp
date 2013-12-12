@@ -33,7 +33,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 
-uint256 hashGenesisBlock("0x0");
+uint256 hashGenesisBlock("0xf505f01b189544469fd2b06009c7bbe44debf5b6119980e05f479a1e20cbdfa2");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // OmniCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
@@ -2049,9 +2049,9 @@ bool LoadBlockIndex(bool fAllowNew)
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1386824916;
+        block.nTime    = 1386829960;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 0;
+        block.nNonce   = 153592;
 
 
         if (fTestNet)
@@ -2064,7 +2064,7 @@ bool LoadBlockIndex(bool fAllowNew)
         printf("block.GetHash() = %s\n", block.GetHash().ToString().c_str());
         printf("hashGenesisBlock = %s\n", hashGenesisBlock.ToString().c_str());
         printf("block.hashMerkleRoot = %s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0x0"));
+        assert(block.hashMerkleRoot == uint256("0x4a3292ba7d652c7fb602272dfdda6c0e4e6a1a79e1284103e024b5f318fd95ca"));
 
 if (true && block.GetHash() != hashGenesisBlock)
         {
