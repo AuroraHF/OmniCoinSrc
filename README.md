@@ -1,22 +1,51 @@
-Bells [BEL]
+OmniCoin
+============
 
-Scrypt Proof of Work
+## OmniCoin ##
 
-RPC 19918
+Name: OmniCoin (OMC)
+Block Time: 180 Seconds
+Difficulty Retarget: 4 Hours
+Coins Per Block: 1,000
+Reward Half: 6 Months
+Connection / RPC Ports: RPC - 43555 || P2P - 43556 || Testnet (P2P) - 43557 || Testnet (RPC) - 43554
+Total Coins: 172800000
+Block Reward Eras (Every New Line = 6 Month):
 
-P2P 19919
-
-1 Minute Block Targets, 4 Hour Diff Readjustments
-
-Total of 500,000,000 coins, special rewards system.
-
-50% chance of 50 coins
-20% chance of 100 coins
-14% chance of 250 coins
-10% chance of 500 coins
-5% chance of 1000 coins
-1% chance of 10000 coins
-
-Halving at 129600 (~90 days)
-Decreasing by 4/5ths at 259200 blocks (~180 days)
-After block 518,400 (~1 year), reward of 2 coins.
+86400000
+43200000
+21600000
+10800000
+5400000
+2700000
+1350000
+675000
+337500
+168750
+84375
+42187.5
+21093.75
+10546.875
+5273.4375
+2636.71875
+1318.359375
+659.1796875
+329.58984375
+164.794921875
+82.3974609375
+41.19873046875
+20.599365234375
+10.2996826171875
+5.14984130859375
+2.574920654296875
+1.287460327148438
+0.6437301635742188
+0.3218650817871094
+0.1609325408935547
+0.0804662704467773
+0.0402331352233887
+0.0201165676116943
+0.0100582838058472
+0.0050291419029236
+0.0025145709514618
+0.0012572854757309
