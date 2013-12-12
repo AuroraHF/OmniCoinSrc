@@ -1,15 +1,20 @@
 OmniCoin
 ============
 
-## OmniCoin ##
-
 Name: OmniCoin (OMC)
+
 Block Time: 180 Seconds
+
 Difficulty Retarget: 4 Hours
+
 Coins Per Block: 1,000
+
 Reward Half: 6 Months
-Connection / RPC Ports: RPC - 43555 || P2P - 43556 || Testnet (P2P) - 43557 || Testnet (RPC) - 43554
+
+Connection / RPC Ports: RPC - 43555 || P2P - 43556 || Testnet - 43557 ||
+
 Total Coins: 172800000
+
 Block Reward Eras (Every New Line = 6 Month):
 
 86400000
