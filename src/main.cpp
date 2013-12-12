@@ -33,7 +33,7 @@ unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
 
-uint256 hashGenesisBlock("0xe5be24df57c43a82d15c2f06bda961296948f8f8eb48501bed1efb929afe0698");
+uint256 hashGenesisBlock("0x0");
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // OmniCoin: starting difficulty is 1 / 2^12
 CBlockIndex* pindexGenesisBlock = NULL;
 int nBestHeight = -1;
